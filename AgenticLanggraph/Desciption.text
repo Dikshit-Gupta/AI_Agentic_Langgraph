@@ -1,0 +1,10 @@
+1| For this we are using a Uv project manager which is completly build in rust
+    for this we first downlaod the uv package 
+       powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex" for this 
+    now after installing this we have to initialize it for our project by 
+       uv init 
+
+2| now i created my vertual env using "uv venv"
+3| now we install the requrement using uv add -r requr.txt
+
+4| now here for our projects we are using jupyter notebook for selecting our kernel here we have to use a library called ipykernal
